@@ -1,3 +1,0 @@
-
-
-// MESMA COISA QUE O EX 3.
