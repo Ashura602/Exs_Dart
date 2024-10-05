@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void choose() {
   switch (input('1- Pré-pago\n2- Pós-Pago\n3- Controle\n')) {

@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void chooseVeic() {
   switch (input('1- carro\n2- bicicleta\n3- metrô\n')) {

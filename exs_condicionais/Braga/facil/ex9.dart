@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void choose() {
   switch (input('1- Alimentos\n2- Limpeza\n3- Higiene\n')) {

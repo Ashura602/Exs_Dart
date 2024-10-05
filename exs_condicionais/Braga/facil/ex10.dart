@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void choose() {
   switch (input('1- Ação\n2- Comédia\n3- Drama\n')) {

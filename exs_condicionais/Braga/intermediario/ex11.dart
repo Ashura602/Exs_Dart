@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void choose(int salario) {
   switch (input('1- Gerente\n2- Supervisor\n3- Operador\n')) {

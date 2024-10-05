@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void choose() {
   switch (input('1- Norte\n2- Sul\n3- Leste\n4- Oeste')) {

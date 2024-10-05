@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void chooseDrink() {
   switch (input('1- água\n2- Refri\n3- Suco\n')) {

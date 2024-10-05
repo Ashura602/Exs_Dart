@@ -1,4 +1,4 @@
-import '../../util.dart';
+import '../../../util.dart';
 
 void main(List<String> args) {
   int rendaAnual = int.parse(input('Renda Anual:'));
