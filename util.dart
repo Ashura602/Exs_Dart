@@ -6,8 +6,8 @@ String input([String? texto]) {
   return stdin.readLineSync()!;
 }
 
-List<int> numbersList(int tamanho) {
-  return List.generate(tamanho, (int value) => Random().nextInt(100),
+List<int> numbersList({required int tamanho, int max = 100}) {
+  return List.generate(tamanho, (int value) => Random().nextInt(max),
       growable: true);
 
   //Codigo expandido

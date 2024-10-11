@@ -12,6 +12,10 @@ void printMatriz(List<List<int>> matriz) {
 
 // Essa foi massa kkkkkkkkk
 void main(List<String> args) {
-  List<List<int>> matriz = [numbersList(3), numbersList(3), numbersList(3)];
+  List<List<int>> matriz = [
+    numbersList(tamanho: 3),
+    numbersList(tamanho: 3),
+    numbersList(tamanho: 3)
+  ];
   printMatriz(matriz);
 }
