@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:math';
 
 String input([String? texto]) {
-  stdout.write(texto);
+  stdout.write(texto??'');
   return stdin.readLineSync()!;
 }
 
