@@ -7,7 +7,7 @@ int numFatorial(int number){
     total *= i;
   }
 }
-
+// esqeuceu do int no começo do i e num fatorial não existe mas acho que tu confundio com o numfatorial 
 
 main(){
   numPalavras(int.parse(input('Numero: ')));
