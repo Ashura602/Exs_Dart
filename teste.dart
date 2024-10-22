@@ -1,17 +1,15 @@
-import 'dart:io';
-
-input2([String? valor]){
-  stdout.write(valor??"");
-  String entrada = stdin.readLineSync()??"";
-  return entrada;
-
+Future<String> buscarDados() {
+  return Future.delayed(Duration(seconds: 2), () {
+    return "Dados recebidos";
+  });
 }
 
+void main() async {
+  print("Buscando dados...");
 
+  // Usando o await para esperar o Future
+  String dados = await buscarDados();
+  print(dados);
 
-
-void main(List<String> args) {
-
-  
+  print("Tarefa concluída.");
 }
-
