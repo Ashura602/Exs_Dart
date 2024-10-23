@@ -1,0 +1,1 @@
+//  Crie uma função que utilize Future.wait para esperar duas operações assíncronas serem concluídas e depois imprima os resultados
