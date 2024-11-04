@@ -3,7 +3,7 @@
 // Tarefa: Escreva um programa que peça a taxa de juros (1 para 1%, 2 para 2%, 3 para 3%) 
 // e utilize o switch case para calcular a prestação final
 
-import '../util.dart';
+import '../../util.dart';
 
 void main(List<String> args) {
   int valor = int.parse(input('digite o valor da prestação: '));

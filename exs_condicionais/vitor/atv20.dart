@@ -3,7 +3,7 @@
 // para Caminhão, 2 para Van, 3 para Carreta) e utilize o switch case para mostrar os
 // detalhes do veículo
 
-import '../util.dart';
+import '../../util.dart';
 
 void main(List<String> args) {
   Map<String, dynamic> carros = {

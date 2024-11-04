@@ -2,7 +2,7 @@
 // Tarefa: Escreva um programa que peça o código do produto e utilize um if-else para 
 // verificar se ele está em estoque ou esgotado.
 
-import '../util.dart';
+import '../../util.dart';
 
 void main(List<String> args) {
   List<int> estoque = [1222,133,144,1234];

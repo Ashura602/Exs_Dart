@@ -3,7 +3,7 @@
 // se ela contém mais de 8 caracteres, números e símbolos, classificando-a como Forte ou
 // Frac
 
-import '../util.dart';
+import '../../util.dart';
 
 dynamic char(String senha) {
   bool encontrouMaiusculo = false;
