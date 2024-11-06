@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Contexto e Tarefa: Um sistema de feedback de clientes armazena os comentários 
 // como strings. Precisamos analisar cada caractere dos comentários. Escreva um 
 // programa que imprima os caracteres de uma string, um por linha, usando um laço 

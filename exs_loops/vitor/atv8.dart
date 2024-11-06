@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //  Contexto e Tarefa: Em um sistema de monitoramento, precisamos contar 
 // quantas vezes um caractere específico aparece em uma string de log. Escreva um 
 // programa que conte quantas vezes um caractere específico aparece em uma string 

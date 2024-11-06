@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Contexto e Tarefa: Em um texto recebido, é necessário contar o número de vogais 
 // para análise de frequência de uso. Escreva um programa que conte o número de 
 // vogais em uma string usando um laço for/while/do while.
@@ -19,3 +20,4 @@ void main(List<String> args) {
 print(contador); 
 
 }
+

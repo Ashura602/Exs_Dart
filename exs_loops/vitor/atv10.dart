@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Contexto e Tarefa: Em um armazém, alguns itens são armazenados com números
 // de série. Precisamos filtrar e listar apenas os números pares. Escreva um programa
 // que filtre e imprima todos os números pares de um array usando um laço
