@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void main() {
   List<int> notas = [80, 90, 75, 88, 92];
   int soma = 0;

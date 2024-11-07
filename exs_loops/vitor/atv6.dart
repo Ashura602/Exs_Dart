@@ -1,16 +1,32 @@
-int contarCaracteres(String log, String caractere) {
-  int contador = 0;
-  for (int i = 0; i < log.length; i++) {
-    if (log[i] == caractere) {
-      contador++;
-    }
-  }
-  return contador;
-}
+// Contexto e Tarefa: Um sistema de feedback de clientes armazena os comentários 
+// como strings. Precisamos analisar cada caractere dos comentários. Escreva um 
+// programa que imprima os caracteres de uma string, um por linha, usando um laço 
+// for/while/do while.
 
-void main() {
-  String log = "log de sistema de monitoramento";
-  String caractere = "o";
-  int resultado = contarCaracteres(log, caractere);
-  print("O caractere '$caractere' aparece $resultado vezes no log.");
+
+
+import '../../util.dart';
+
+void main(List<String> args) {
+
+  bool continua = true;
+  List<String> dados = [];
+
+
+  while(continua){
+    int opcao  = int.parse(input2('bom dia coloque seu feedback: [1]sair'));
+
+    if (opcao == 1) {
+    
+      String caractere = input('digite: ');
+      dados.addAll(caractere.split(''));
+      
+      dados.forEach((element) => print(element));
+      print(dados);
+      continua = false;
+    }
+  
+  }
+
+
 }

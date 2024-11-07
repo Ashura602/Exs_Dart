@@ -1,19 +1,20 @@
-void pesquisarProduto(List<int> estoque, int produto) {
-  bool encontrado = false;
-  for (int i = 0; i < estoque.length; i++) {
-    if (estoque[i] == produto) {
-      print("Produto encontrado na posição: $i");
-      encontrado = true;
-      break;
+
+
+
+import '../../util.dart';
+
+void main(List<String> args) {
+  int contador = 0;
+  Set<String> set = {'a','e','i','o','u'};
+  String caracter = input('digite: ');
+
+  for (int i = 0; i < caracter.length; i++){
+    if(set.contains(caracter[i])){
+      contador++;
     }
+    
   }
-  if (!encontrado) {
-    print("Produto não encontrado no estoque.");
-  }
+print(contador); 
+
 }
 
-void main() {
-  List<int> estoque = [10, 20, 30, 40, 50];
-  int produto = 30;
-  pesquisarProduto(estoque, produto);
-}

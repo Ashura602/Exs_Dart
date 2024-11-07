@@ -1,14 +1,19 @@
-void filtrarNumerosPares(List<int> numeros) {
-  List<int> numerosPares = [];
-  for (int i = 0; i < numeros.length; i++) {
-    if (numeros[i] % 2 == 0) {
-      numerosPares.add(numeros[i]);
-    }
-  }
-  print("Números pares: $numerosPares");
-}
 
-void main() {
-  List<int> numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  filtrarNumerosPares(numeros);
+import '../../util.dart';
+
+void main(List<String> args) {
+  int cont = 0;
+  String letraProcurda  = input('letra que vai ser procurda: ');
+  String palavra =input('coloque a palavra: ');
+
+  for(int i = 0;i < palavra.length;i++){
+  
+    if(letraProcurda.contains(palavra[i])){
+     cont++;
+
+    }
+
+  }
+  
+  print(cont);
 }
