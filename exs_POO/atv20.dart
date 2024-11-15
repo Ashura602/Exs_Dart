@@ -20,5 +20,5 @@ class Algoritmo{
 
 void main(List<String> args) {
   List<String> lista = ['banana','cabana','morango'];
-  Algoritmo.encontraritem(lista, '');
+  Algoritmo.encontraritem(lista, 'cabana');
 }
